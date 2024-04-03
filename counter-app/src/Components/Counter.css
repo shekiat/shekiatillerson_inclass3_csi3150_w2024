@@ -1,0 +1,51 @@
+/* Styling for the counter app */
+
+*{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    --bg-primary: #09814a;
+    --bg-secondary: #2D4739;
+}
+
+.counter-display {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background: var(--bg-primary);
+    color: rgb(238, 238, 238);
+    font-size: 20px;
+    margin-top: 200px;
+    margin-bottom: 80px;
+    margin-left: 45%;
+    padding: 0px 30px;
+    width: 160px;
+    height: 60px;
+    
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    margin-left: 25%;
+    width: 50%;
+    height: 0;
+
+}
+
+.button-container button {
+    margin: 0px;
+    width: 160px;
+    height: 60px;
+    text-align: center;
+    font-size: 20px;
+    border: none;
+    background: var(--bg-secondary);
+    color: white;
+}
